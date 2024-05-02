@@ -29,6 +29,7 @@ class PluginGallerySandboxPlugin extends GenericPlugin
 		if ($success && $this->getEnabled($mainContextId)) {
 			
 			if($link = $this->getSetting($this->getCurrentContextId(), 'link')){
+				error_reporting(error_reporting() & ~E_NOTICE);
 				define('PLUGIN_GALLERY_XML_URL', $link);
 			}
 		}
