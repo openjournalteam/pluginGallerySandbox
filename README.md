@@ -16,4 +16,5 @@ This plugin is a sandbox for testing submitting new plugins. It is not intended 
 
 - Refresh the page
 - Open `Plugin Gallery` menu and see the result of your plugin
+
 ![CleanShot 2024-09-02 at 15 09 04](https://github.com/user-attachments/assets/e4c1ddbb-7674-4e5b-9ec9-236ce14650fc)
